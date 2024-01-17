@@ -1,5 +1,14 @@
+# Virtual environment
 venv/
+
+# Python cache files
 __pycache__/
-src/
-output/
 *.pyc
+
+# Ignore everything in src and output directories
+src/*
+output/*
+
+# But keep the directories by not ignoring .gitkeep files
+!src/.gitkeep
+!output/.gitkeep
